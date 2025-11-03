@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first api</title>
+    <link rel="stylesheet"  type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="top-class">
+    <div class="container2">
+        <div class="card">
+            <h1>Login</h3>
+            <form action="/greet" method="post" >
+                <div class="input-box">
+                    <label for="name" class="label1">NAME:-</label>
+                    <input type="text" placeholder="Enter the name" name="name" required>
+                </div>
+                <div class="input-box" >
+                    <label for="profession" class="label1">WORK:-</label>
+                    <input type="text" placeholder="Work" name="profession" required>
+                </div>
+                <button class="submit--button"type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

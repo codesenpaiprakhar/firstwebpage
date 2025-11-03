@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first api</title>
+    <link rel="stylesheet"  type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="top-class">
+    <div class="container2">
+        <div class="card">
+            <h1 class="lead">GREETINGS 👋</h1>
+            <h2 class="lead">Hello {{ name }}</h2>
+            <h2 class="lead">We see that you are a {{ profession }}</h2>
+            <h1 id="message">{{ greeting }}</h1>
+            <a href="/" class="btn">Go Back</a>
+
+        </div>
+    </div>
+</body>
+</html>
